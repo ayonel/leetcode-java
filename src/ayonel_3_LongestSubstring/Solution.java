@@ -1,4 +1,4 @@
-package longestSubstring3;
+package ayonel_3_LongestSubstring;
 
 import java.util.HashSet;
 
@@ -9,7 +9,7 @@ import java.util.HashSet;
 
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(lengthOfLongestSubstring("aab"));
+        System.out.println(lengthOfLongestSubstring2("ssasf"));
     }
     public static  int lengthOfLongestSubstring(String s) {
         int length = s.length();
@@ -41,4 +41,19 @@ public class Solution {
         }
         return max;
     }
+
+    //optimal
+    public static  int lengthOfLongestSubstring2(String s) {
+            int n = s.length(), ans = 0;
+            int[] index = new int[128]; // current index of character
+            // try to extend the range [i, j]
+            for (int j = 0, i = 0; j < n; j++) {
+                i = Math.max(index[s.charAt(j)], i);
+                ans = Math.max(ans, j - i + 1);
+                index[s.charAt(j)] = j + 1;
+            }
+            return ans;
+    }
+
+
 }

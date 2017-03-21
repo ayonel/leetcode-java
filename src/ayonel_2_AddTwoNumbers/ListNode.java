@@ -1,4 +1,4 @@
-package addTwoNumbers2;
+package ayonel_2_AddTwoNumbers;
 
 /**
  * @author ayonel
