@@ -1,5 +1,7 @@
 package ayonel_217_ContainsDuplicate;
 
+import com.sun.org.apache.xerces.internal.dom.PSVIAttrNSImpl;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -10,7 +12,6 @@ import java.util.Set;
  * 解题思路，构造一个set
  */
 public class Solution {
-    private int i;
     public boolean containsDuplicate(int[] nums) {
         Set<Integer> set = new HashSet<>();
         boolean result = false;

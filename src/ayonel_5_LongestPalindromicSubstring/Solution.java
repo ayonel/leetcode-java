@@ -14,8 +14,11 @@ package ayonel_5_LongestPalindromicSubstring;
  */
 public class Solution {
     public String longestPalindrome(String s) {
+        int []a[] = new int[6][6];
+
         String longestPalindrome = "";
         int longestLength = 0;
+        
         for (int i = 0; i < s.length(); i++) {
             //  判断奇数的情况
             int lp = i;
