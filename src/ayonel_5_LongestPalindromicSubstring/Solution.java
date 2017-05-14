@@ -18,7 +18,6 @@ public class Solution {
 
         String longestPalindrome = "";
         int longestLength = 0;
-        
         for (int i = 0; i < s.length(); i++) {
             //  判断奇数的情况
             int lp = i;
