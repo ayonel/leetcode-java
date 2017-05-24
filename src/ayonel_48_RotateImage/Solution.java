@@ -6,6 +6,8 @@ import java.util.Arrays;
  * @author ayonel
  * @create 2017-05-23 21:48
  * @blog https://ayonel.me
+ *
+ * 解题思路，一圈一圈旋转
  **/
 public class Solution {
     public void rotate(int[][] matrix) {
@@ -19,7 +21,7 @@ public class Solution {
         }
 
         for (int i = 0; i < n/2; i++) {
-            for (int j = i; j < n-1-i; j++) {  // 大于等于 改成 小于号
+            for (int j = i; j < n-1-i; j++) {  // 大于等于 改成 小于号 每个折线的最后一个元素不动
                 int tmp = matrix[i][j];
                 matrix[i][j] = matrix[n-1-j][i];
                 matrix[n-1-j][i] = matrix[n-1-i][n-1-j];
