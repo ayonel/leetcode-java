@@ -8,7 +8,7 @@ import java.util.*;
  * @create 2017-05-24 20:56
  * @blog https://ayonel.me
  **/
-public class Inversions {
+public class InversionsNo {
 
     public int inversion(int n, int k) {
         List<List<Integer>> res = new ArrayList<>();
@@ -19,7 +19,7 @@ public class Inversions {
         }
 
         allRank(array,0,n-1,res);
-        System.out.println(res);
+//        System.out.println(res);
 
         for (List<Integer> list:
              res) {
@@ -74,30 +74,30 @@ public class Inversions {
 
 
 
-    public void bfs(int n, List<Integer> rank, List<List<Integer>> res) {
-        if (rank.size() == n) {
-            res.add(rank);
-            return;
-        }
-
-        for (int i = rank.size(); i <= n; i++) {
-            for (int j = 1; j <= n; j++) {
-                if (!rank.contains(j)) {
-                    List<Integer> tmpRank = new ArrayList<>();
-                    tmpRank.addAll(rank);
-                    tmpRank.add(j);
-                    bfs(n, tmpRank, res);
-                }
-            }
-        }
-
-    }
+//    public void bfs(int n, List<Integer> rank, List<List<Integer>> res) {
+//        if (rank.size() == n) {
+//            res.add(rank);
+//            return;
+//        }
+//
+//        for (int i = rank.size(); i <= n; i++) {
+//            for (int j = 1; j <= n; j++) {
+//                if (!rank.contains(j)) {
+//                    List<Integer> tmpRank = new ArrayList<>();
+//                    tmpRank.addAll(rank);
+//                    tmpRank.add(j);
+//                    bfs(n, tmpRank, res);
+//                }
+//            }
+//        }
+//
+//    }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int k = sc.nextInt();
-        Inversions i = new Inversions();
+        InversionsNo i = new InversionsNo();
         System.out.println(i.inversion(n,k));
     }
 }

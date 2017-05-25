@@ -42,7 +42,27 @@ public class Solution {
             }
         }
 
-        return 0;
 
+
+        for (int i = 1; i < m; i++) {
+            for (int j = 1; j < n; j++) {
+                if (obstacleGrid[i][j] == 1)
+                    matrix[i][j] = 0;
+                else
+                    matrix[i][j] = matrix[i-1][j] + matrix[i][j-1];
+            }
+        }
+
+
+
+        return matrix[m-1][n-1];
+
+    }
+
+
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[][] a = {{0,0,0},{0,1,0}, {0,0,0}};
+        System.out.println(s.uniquePathsWithObstacles(a));
     }
 }
