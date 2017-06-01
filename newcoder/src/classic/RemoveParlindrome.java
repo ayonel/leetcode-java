@@ -1,3 +1,5 @@
+package classic;
+
 import java.util.Scanner;
 
 /**
