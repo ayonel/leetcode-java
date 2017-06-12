@@ -5,10 +5,10 @@ package ayonel_2_AddTwoNumbers;
  * @created_at 16/9/10
  */
 
-public  class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) {
+public class ListNode {
+    public int val;
+    public ListNode next;
+    public ListNode(int x) {
         val = x;
     }
 }
