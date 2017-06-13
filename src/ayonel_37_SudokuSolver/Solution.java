@@ -29,7 +29,6 @@ public class Solution {
                                 board[i][j] = '.'; //Otherwise go back
                         }
                     }
-
                     return false;
                 }
             }
