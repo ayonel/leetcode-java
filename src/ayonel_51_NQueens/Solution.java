@@ -81,7 +81,5 @@ public class Solution {
 
     public static void main(String[] args) {
         new Solution().solveNQueens(4);
-        int[] a= {1,2};
-        a.clone();
     }
 }
