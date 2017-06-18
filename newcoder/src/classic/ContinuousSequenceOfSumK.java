@@ -14,8 +14,6 @@ public class ContinuousSequenceOfSumK {
         for (int i = 1; i < sum/2+1; i++) {
             dfs(sum, i, new ArrayList<>(), res);
         }
-
-        System.out.println(res);
         return res;
     }
 
@@ -24,11 +22,8 @@ public class ContinuousSequenceOfSumK {
             res.add(path);
             return;
         }
-
-        if (target < 0)
-            return;
+        if (target < 0) return;
         path.add(index);
-
         dfs(target-index, index+1, path, res);
     }
 
