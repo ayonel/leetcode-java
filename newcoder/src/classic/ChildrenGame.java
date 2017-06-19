@@ -39,4 +39,24 @@ public class ChildrenGame {
         }
         return children.get(0);
     }
+    public boolean duplicate(int numbers[],int length,int [] duplication) {
+        for ( int i= 0 ; i<length; i++) {
+            int index = numbers[i];
+            if (numbers[index] >= length) {
+                duplication[0] = index;
+                return true;
+            }
+            numbers[index] = numbers[index] + length;
+        }
+        return false;
+
+    }
+
+
+
+    public static void main(String[] args) {
+        int[] numbers = {2,1,3,1,4};
+        int[] duplication = new int[1];
+        System.out.println(new ChildrenGame().duplicate(numbers, 5, duplication));
+    }
 }
