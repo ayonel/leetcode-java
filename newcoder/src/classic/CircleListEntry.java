@@ -39,4 +39,55 @@ public class CircleListEntry {
         }
         return null;
     }
+    public ListNode deleteDuplication(ListNode pHead)
+    {
+        if(pHead == null)
+            return null;
+        ListNode dummy = new ListNode(0);
+        dummy.next = pHead;
+
+        ListNode p = pHead;
+        ListNode pre = dummy;
+
+        while(p != null && p.next != null) {
+            if(p.next.val == p.val) {
+                while(p.next != null && p.next.val == p.val) {
+                    p = p.next;
+                }
+                p = p.next;
+                pre.next = p;
+
+            } else {
+                pre = p;
+                p = p.next;
+            }
+
+
+        }
+        return dummy.next;
+
+    }
+
+    public static void main(String[] args) {
+        ListNode node1 = new ListNode(1);
+        ListNode node2 = new ListNode(0);
+        ListNode node3 = new ListNode(2);
+        ListNode node4 = new ListNode(2);
+        ListNode node5 = new ListNode(4);
+        ListNode node6 = new ListNode(3);
+        ListNode node7 = new ListNode(3);
+
+        node1.next = node2;
+        node2.next = node3;
+        node3.next = node4;
+        node4.next = node5;
+        node5.next = node6;
+        node6.next = node7;
+
+        ListNode res = new CircleListEntry().deleteDuplication(node1);
+        while(res!=null) {
+            System.out.println(res.val);
+            res = res.next;
+        }
+    }
 }
