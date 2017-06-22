@@ -19,7 +19,6 @@ public class Solution {
             dfs(i, new ArrayList<>(), res, n, k);
         }
         return res;
-
     }
 
     public void  dfs(int index, List<Integer> path, List<List<Integer>> res, int n, int k) {
@@ -36,9 +35,7 @@ public class Solution {
             tmpPath.addAll(path);
             dfs(i, tmpPath, res, n , k);
         }
-
     }
-
 
     public static void main(String[] args) {
         System.out.println(new Solution().combine(0,1));
