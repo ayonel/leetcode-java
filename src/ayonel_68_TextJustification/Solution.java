@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-15 16:45
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public List<String> fullJustify(String[] words, int maxWidth) {

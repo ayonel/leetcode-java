@@ -3,9 +3,9 @@ package classic;
 /**
  * Reverse pair
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-17 21:01
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 归并排序，动归也能解，但是超了
  **/
 public class ReversePair {

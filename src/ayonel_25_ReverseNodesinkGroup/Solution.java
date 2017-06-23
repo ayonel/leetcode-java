@@ -8,9 +8,9 @@ import java.util.List;
 /**
  * 25. Reverse Nodes in k-Group
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-12 14:15
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：递归，审题要仔细
  **/
 public class Solution {

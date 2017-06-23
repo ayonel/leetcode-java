@@ -6,9 +6,9 @@ import java.util.List;
 /**
  * Given a string containing only digits, restore it by returning all possible valid IP address combinations.
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-21 21:12
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public List<String> restoreIpAddresses(String s) {

@@ -5,9 +5,9 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-21 19:13
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：找规律，从最后一位推到第一位，从最后一位开始，每一列先是1个0，2个0，4个0....
  * 然后对于每一列分别是2个1，0交替，4个1，0交替，8个1，0交替
  **/

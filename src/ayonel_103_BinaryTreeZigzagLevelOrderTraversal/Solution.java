@@ -10,9 +10,9 @@ import java.util.List;
 /**
  * Given a binary tree, return the zigzag level order traversal of its nodes' values. (ie, from left to right, then right to left for the next level and alternate between).
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-23 14:12
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {

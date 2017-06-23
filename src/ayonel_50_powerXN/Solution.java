@@ -5,9 +5,9 @@ import java.util.Date;
 /**
  * Pow(x, n)
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-13 17:41
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：二分
  **/
 public class Solution {

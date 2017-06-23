@@ -5,9 +5,9 @@ import java.util.*;
 /**
  * Generate Parentheses
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-08 17:08
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：深搜
  **/
 public class Solution {

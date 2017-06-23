@@ -1,9 +1,9 @@
 package ayonel_96_UniqueBinarySearchTrees;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-22 21:29
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：动归
  * 第n的结果为，2*[n-1] +  分别以2~n-1为根节点的树的数目
  * 其中以第k为根节点的树， [k-1]*[n-k]

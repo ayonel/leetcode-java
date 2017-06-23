@@ -2,9 +2,9 @@ package classic;
 
 /**
  * 写一个函数，求两个整数之和，要求在函数体内不得使用+、-、*、/四则运算符号。
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-18 21:39
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  *
  * 解题思路：首先看十进制是如何做的： 5+7=12，三步走
 第一步：相加各位的值，不算进位，得到2。

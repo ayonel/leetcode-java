@@ -8,9 +8,9 @@ import java.util.List;
 /**
  * Insert Interval
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-24 15:41
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路，利用56中的merge函数，将newInterval插入后merge即可
  **/
 public class Solution {

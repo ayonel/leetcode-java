@@ -3,9 +3,9 @@ package ayonel_14_LongestCommonPrefix;
 /**
  * 14. Longest Common Prefix
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-08 11:18
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public String longestCommonPrefix(String[] strs) {

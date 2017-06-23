@@ -1,9 +1,9 @@
 package ayonel_44_WildcardMatching;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-13 10:20
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路： 动归，需要对以*开头的p做初始化操作，全为true
  **/
 public class Solution {

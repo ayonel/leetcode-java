@@ -1,9 +1,9 @@
 package classic;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-18 13:43
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 统计一个数字在排序数组中出现的次数。
 
  **/

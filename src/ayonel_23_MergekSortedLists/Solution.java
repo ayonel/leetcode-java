@@ -6,9 +6,9 @@ import java.util.*;
 /**
  * 23. Merge k Sorted Lists
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-09 10:15
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：递归，但是超时了。。。。,最后一个样例没过， 如果用java自带的优先队列来做，就可以，原理类似，但是可能优先队列
  * 有一些优化，不会超时
  * 解题思路2：用空间换时间，重新构造一个新链, 妈的还是超时

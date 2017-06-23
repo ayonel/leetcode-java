@@ -8,9 +8,9 @@ import java.util.List;
 /**
  * Merge Intervals
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-24 15:06
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  *
  * 解题思路：先对intervals排序，然后扫描，如果当前元素的start大于当前记录的最大的end，则把原先记录的start,end填入结果链表
  * 否则，说明重叠了，更新当前记录的最大end为该元素的end,知道扫描完毕。

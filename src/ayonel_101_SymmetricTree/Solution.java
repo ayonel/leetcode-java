@@ -5,9 +5,9 @@ import ayonel_2_AddTwoNumbers.TreeNode;
 /**
  * Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).  For example, this binary tree [1,2,2,3,4,4,3] is symmetric:
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-23 13:22
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public boolean isSymmetric(TreeNode root) {

@@ -5,9 +5,9 @@ import ayonel_2_AddTwoNumbers.ListNode;
 import java.util.List;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-21 20:30
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * Reverse a linked list from position m to n. Do it in-place and in one-pass.
 
 For example:

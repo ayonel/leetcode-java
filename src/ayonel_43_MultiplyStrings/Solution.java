@@ -5,9 +5,9 @@ import java.util.Arrays;
 /**
  * 43. Multiply Strings
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-12 21:22
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：就是模拟，但是写的太丑了
  **/
 public class Solution {

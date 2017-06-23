@@ -5,9 +5,9 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-24 16:16
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：广搜，妈的超时了。。。。
  **/
 public class Solution {

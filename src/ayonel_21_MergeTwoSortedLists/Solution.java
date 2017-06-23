@@ -5,9 +5,9 @@ import java.util.List;
 /**
  * Merge Two Sorted Lists
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-08 15:58
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  *
  * 解题思路：复杂度为O(m+n)
  * 先从较小的那条链上扫，如果扫到比另一条链大的，需要从另外一条链上扫，i,j之间有个巧妙的替换。

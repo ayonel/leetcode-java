@@ -7,9 +7,9 @@ import java.util.Map;
 /**
  * 149. Max Points on a Line
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-14 09:59
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：double 有精度温度，例如main函数里的样例就过不了，除非用最简分数表示
  **/
 

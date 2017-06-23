@@ -5,9 +5,9 @@ import java.util.Stack;
 /**
  * Valid Parentheses
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-08 15:39
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：利用堆栈，遇见(,[,{压栈，遇见),],}弹栈
  **/
 public class Solution {

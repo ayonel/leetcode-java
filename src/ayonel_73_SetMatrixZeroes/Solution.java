@@ -5,9 +5,9 @@ import java.util.HashSet;
 /**
  * ayonel_73_SetMatrixZeroes
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-25 10:15
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：如果没要求inplace的话，扫描一遍确定哪些行，列有0，存一个set 然后扫描set，清零原数组
  *
  * O（1）空间解题思路：扫一遍matrix,将所有的0映射到第一行跟第一列，并且保存两个数，表示第一行跟第一列有没有0；

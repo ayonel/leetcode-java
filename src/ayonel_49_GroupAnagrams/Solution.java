@@ -3,9 +3,9 @@ package ayonel_49_GroupAnagrams;
 import java.util.*;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-31 15:56
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：排序，再搜索，结果他么超时。。。
  * 不用排序，直接计算索引，扔进结果
  **/

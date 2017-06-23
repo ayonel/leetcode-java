@@ -8,9 +8,9 @@ import java.util.Stack;
 /**
  * Longest Valid Parentheses
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-12 15:29
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：先遍历一遍，求出以每个i为开始的最长的合法序列(主要时间花在这)， 然后再遍历，如果i+gap处还有合法序列，则累加
  *
  * 构造每个i开始的最长合法序列的时候，组开始用堆栈，结果超时，其实我要的最长连续的合法序列，即((()))()我要的结果是6，没有必要用堆栈

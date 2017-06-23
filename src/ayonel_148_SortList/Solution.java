@@ -6,9 +6,9 @@ import ayonel_2_AddTwoNumbers.ListNode;
 /**
  * 148. Sort List
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-14 14:19
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：归并排序
  **/
 public class Solution {

@@ -10,9 +10,9 @@ import java.util.List;
 /**
  * ayonel_79_WordSearch
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-27 19:07
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * //深搜tm超时了，可能是开List的问题
  **/
 public class Solution {

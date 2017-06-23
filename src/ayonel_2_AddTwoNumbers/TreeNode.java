@@ -1,9 +1,9 @@
 package ayonel_2_AddTwoNumbers;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-22 15:50
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class TreeNode {
     public int val;

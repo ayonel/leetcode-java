@@ -5,9 +5,9 @@ import ayonel_2_AddTwoNumbers.ListNode;
 /**
  * 24. Swap Nodes in Pairs
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-11 21:41
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public ListNode swapPairs(ListNode head) {

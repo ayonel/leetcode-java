@@ -4,9 +4,9 @@ package ayonel_88_MergeSortedArray;
  * Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.
 
 
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-21 18:23
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：从后往前的就不用开空间，直接从m+n-1处开始存
  **/
 public class Solution {

@@ -4,9 +4,9 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-31 15:38
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public boolean isValidSudoku(char[][] board) {

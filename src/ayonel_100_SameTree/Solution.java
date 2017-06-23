@@ -3,9 +3,9 @@ package ayonel_100_SameTree;
 import ayonel_2_AddTwoNumbers.TreeNode;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-23 10:49
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public boolean isSameTree(TreeNode p, TreeNode q) {

@@ -7,9 +7,9 @@ import java.util.List;
 /**
  * 3SumCloset
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-14 16:37
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public int threeSumClosest(int[] num, int target) {

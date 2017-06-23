@@ -8,9 +8,9 @@ import java.util.List;
 /**
  * 4Sum
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-14 19:35
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public List<List<Integer>> threeSum(int[] nums, int target) {

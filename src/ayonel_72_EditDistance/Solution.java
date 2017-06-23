@@ -2,9 +2,9 @@ package ayonel_72_EditDistance;
 
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-04 23:20
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 结题思路：2D-动归
  * 如果word1[i] == word[j]  dp[i+1][j+1] = dp[i][j]
  * 如果word1[i] != word[j]  dp[i+1][j+1] = min(dp[i][j+1]+1, dp[i][j]+1, dp[i+1][j]+1)

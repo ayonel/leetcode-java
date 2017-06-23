@@ -3,9 +3,9 @@ package ayonel_7_ReverseInteger;
 /**
  * Reverse Integer
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-07 15:06
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路： 先用字符数组逆转原数字，注意要区分+ -
  * 然后用double来存逆转后的结果，最后判断是否溢出
  **/

@@ -10,9 +10,9 @@ import java.util.stream.IntStream;
 /**
  * 46. Permutations
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-13 14:55
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：递归，也可以传值进去，用空间换时间
  **/
 public class Solution {

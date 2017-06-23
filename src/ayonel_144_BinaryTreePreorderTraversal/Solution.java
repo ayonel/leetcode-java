@@ -5,9 +5,9 @@ import java.util.*;
 /**
  * 144. Binary Tree Preorder Traversal
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-14 22:37
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {

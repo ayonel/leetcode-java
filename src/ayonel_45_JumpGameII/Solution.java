@@ -5,9 +5,9 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-23 20:02
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  *
  * 解题思路：广度优先搜索(太慢了)，内存爆了，但是解法应该没问题，不能用
  **/

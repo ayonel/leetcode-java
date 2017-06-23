@@ -1,9 +1,9 @@
 package classic;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-18 13:57
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 输入一棵二叉树，求该树的深度。从根结点到叶结点依次经过的结点（含根、叶结点）形成树的一条路径，最长路径的长度为树的深度。
  **/
 class TreeNode {

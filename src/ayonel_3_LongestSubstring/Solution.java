@@ -3,7 +3,7 @@ package ayonel_3_LongestSubstring;
 import java.util.HashSet;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @created_at 16/9/12
  */
 

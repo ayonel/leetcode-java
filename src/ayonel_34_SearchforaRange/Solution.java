@@ -3,9 +3,9 @@ package ayonel_34_SearchforaRange;
 /**
  * Search for a Range
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-21 21:22
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * Given an array of integers sorted in ascending order, find the starting and ending position of a given target value.
 
 Your algorithm's runtime complexity must be in the order of O(log n).

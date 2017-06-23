@@ -5,9 +5,9 @@ import java.util.Stack;
 /**
  * 150. Evaluate Reverse Polish Notation
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-14 09:45
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public int evalRPN(String[] tokens) {

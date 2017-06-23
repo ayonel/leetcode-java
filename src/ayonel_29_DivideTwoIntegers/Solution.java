@@ -5,9 +5,9 @@ import java.util.InputMismatchException;
 /**
  * 29. Divide Two Integers
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-11 22:55
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  *
  * 解题思路：逐个加除数，直到大于被除数，但是会超时，需要二分
  **/

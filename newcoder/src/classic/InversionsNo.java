@@ -5,9 +5,9 @@ import java.util.*;
 
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-24 20:56
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class InversionsNo {
 

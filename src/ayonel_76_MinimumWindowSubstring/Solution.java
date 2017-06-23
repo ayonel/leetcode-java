@@ -7,9 +7,9 @@ import java.util.HashSet;
 /**
  * 76. Minimum Window Substring
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-16 09:17
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：动归
  **/
 public class Solution {

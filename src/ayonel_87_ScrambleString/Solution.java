@@ -1,9 +1,9 @@
 package ayonel_87_ScrambleString;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-21 17:11
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public boolean isScramble(String s1, String s2) {

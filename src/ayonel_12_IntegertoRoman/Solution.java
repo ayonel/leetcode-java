@@ -3,9 +3,9 @@ package ayonel_12_IntegertoRoman;
 /**
  * Integer to Roman
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-08 10:44
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public String intToRoman(int num) {

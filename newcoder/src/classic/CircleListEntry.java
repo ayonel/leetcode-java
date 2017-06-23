@@ -3,9 +3,9 @@ package classic;
 /**
  * 一个链表中包含环，请找出该链表的环的入口结点。
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-19 10:15
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：
  * 链接：https://www.nowcoder.com/questionTerminal/253d2c59ec3e4bc68da16833f79a38e4
 来源：牛客网

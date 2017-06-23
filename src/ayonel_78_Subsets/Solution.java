@@ -7,9 +7,9 @@ import java.util.List;
 /**
  * Subsets
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-25 22:59
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：广搜与深搜
  **/
 public class Solution {

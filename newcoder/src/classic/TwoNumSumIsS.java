@@ -6,9 +6,9 @@ import java.util.Arrays;
 /**
  * 输入一个递增排序的数组和一个数字S，在数组中查找两个数，是的他们的和正好是S，如果有多对数字的和等于S，输出两个数的乘积最小的。
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-18 16:47
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路： 先确定较小数，然后二分去找剩下的一个数，复杂度应该是nlogn
  * 还可以有一种o(n)的算法，两头一个指针，分别向中间扫，直到找到array[i]+array[j] == sum
  **/

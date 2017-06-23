@@ -5,9 +5,9 @@ import java.util.Arrays;
 /**
  * 一个整型数组里除了两个数字之外，其他的数字都出现了两次。请写程序找出这两个只出现一次的数字。
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-18 14:57
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 链接：https://www.nowcoder.com/questionTerminal/e02fdb54d7524710a7d664d082bb7811
 来源：牛客网
 

@@ -6,9 +6,9 @@ import java.util.List;
 /**
  * Plus One
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-25 09:57
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：从后往前扫
  **/
 public class Solution {

@@ -3,9 +3,9 @@ package ayonel_75_SortColors;
 /**
  * Sort Colors
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-25 21:31
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：快排
  **/
 public class Solution {

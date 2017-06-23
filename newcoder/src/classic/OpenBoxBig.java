@@ -6,8 +6,8 @@ import java.util.Scanner;
 import java.math.BigInteger;
 
 /**
- * @author ayonel
- * @blog https://ayonel.me
+ * @author ayonel_113_PathSumII
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class OpenBoxBig {
 

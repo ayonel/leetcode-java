@@ -3,9 +3,9 @@ package ayonel_63_UniquePathsII;
 /**
  * Unique Paths II
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-24 23:09
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {

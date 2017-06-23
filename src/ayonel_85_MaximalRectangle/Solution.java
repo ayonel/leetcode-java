@@ -5,9 +5,9 @@ import java.util.Stack;
 /**
  * Given a 2D binary matrix filled with 0's and 1's, find the largest rectangle containing only 1's and return its area.  For example, given the following matrix:
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-20 19:00
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public int maximalRectangle(char[][] matrix) {

@@ -3,9 +3,9 @@ package ayonel_26_RemoveDuplicatesFromSortedArray;
 /**
  * RemoveDuplicate
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-14 20:39
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public static  int removeDuplicates(int[] nums) {

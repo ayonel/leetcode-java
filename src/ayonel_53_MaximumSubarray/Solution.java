@@ -5,9 +5,9 @@ package ayonel_53_MaximumSubarray;
  * For example, given the array [-2,1,-3,4,-1,2,1,-5,4],
  the contiguous subarray [4,-1,2,1] has the largest sum = 6.
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-24 11:10
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：一遍扫描，判断当前子串总和是否大于等于0，如果是继续，否则的话，需要重新开始计算子串，sum清零
  * 或者利用动态规划
  **/

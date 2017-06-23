@@ -5,9 +5,9 @@ import java.util.*;
 /**
  * 145. Binary Tree Postorder Traversal
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-14 19:11
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：利用堆栈，手动去模拟后序遍历的过程，寻找规律，注意入栈的时候要反着来
  * 前中后序的程序如下
  **/

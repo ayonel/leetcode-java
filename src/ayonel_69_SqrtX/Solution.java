@@ -3,9 +3,9 @@ package ayonel_69_SqrtX;
 /**
  * 69. Sqrt(x)
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-15 20:41
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：二分搜索
  **/
 public class Solution {

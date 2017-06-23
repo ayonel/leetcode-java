@@ -6,9 +6,9 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-13 16:13
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：用46的递归也行，但是由于有重复元素，但是要注意，不要传引用，因为传引用的话，在递归方法返回时还要swap回来，所有会很费时间，
  * 如果传复制品，也就是传值的时候，就不需要swap回来了，相当于是尾递归，能大大提高效率,
  * permuteUnique1跟permuteUnique2方法时间几乎一样

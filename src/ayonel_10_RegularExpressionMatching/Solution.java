@@ -3,9 +3,9 @@ package ayonel_10_RegularExpressionMatching;
 /**
  * 10. Regular Expression Matching
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-04 16:22
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public boolean isMatch(String s, String p) {

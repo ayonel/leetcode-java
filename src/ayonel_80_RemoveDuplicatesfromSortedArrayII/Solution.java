@@ -1,9 +1,9 @@
 package ayonel_80_RemoveDuplicatesfromSortedArrayII;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-27 21:55
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public int removeDuplicates(int[] nums) {

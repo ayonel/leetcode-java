@@ -8,9 +8,9 @@ import java.util.*;
 /**
  * Combination Sum II
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-22 21:15
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 结题思路：这个题目需要不带重复元素的解集
  * 深度优先搜索，
  **/

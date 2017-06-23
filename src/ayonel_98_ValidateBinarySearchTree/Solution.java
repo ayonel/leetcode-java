@@ -8,9 +8,9 @@ import java.util.Deque;
 import java.util.List;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-23 09:12
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：中序遍历后有序
  *
  **/

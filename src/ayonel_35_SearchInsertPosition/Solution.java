@@ -3,9 +3,9 @@ package ayonel_35_SearchInsertPosition;
 /**
  * Search Insert Position
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-21 22:20
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  *
  * Given a sorted array and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
 

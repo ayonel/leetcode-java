@@ -7,9 +7,9 @@ import java.util.List;
 /**
  * N-Queens
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-13 20:01
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public List<List<String>> solveNQueens(int n) {

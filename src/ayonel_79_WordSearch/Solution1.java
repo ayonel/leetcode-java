@@ -5,9 +5,9 @@ import java.util.HashSet;
 import java.util.List;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-27 21:27
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution1 {
     static boolean[][] visited;

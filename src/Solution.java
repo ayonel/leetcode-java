@@ -3,9 +3,9 @@ import java.util.InputMismatchException;
 /**
  * String to Integer (atoi)
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-07 15:29
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 就是各种特殊条件，很无聊的题
  **/
 public class Solution {

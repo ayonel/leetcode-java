@@ -3,9 +3,9 @@ package ayonel_19_RemoveNthNodeFromEndofList;
 /**
  * Remove Nth Node From End of List
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-08 15:15
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：两个指针，一快一慢
  **/
 class ListNode {

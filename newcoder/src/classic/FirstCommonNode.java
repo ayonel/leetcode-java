@@ -4,9 +4,9 @@ import java.util.HashSet;
 
 /**
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-18 13:15
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 class ListNode {
     int val;

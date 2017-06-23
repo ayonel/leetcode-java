@@ -5,9 +5,9 @@ import org.hamcrest.core.Is;
 /**
  * 输入一棵二叉树，判断该二叉树是否是平衡二叉树。
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-18 14:27
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：下面第一种解法，对每个左右子树计算高度差，这样造成了两遍递归，复杂度有些高
  *
  * 解法二只用一次后序遍历，在过程中更改类变量，只需要一次递归

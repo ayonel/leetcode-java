@@ -1,9 +1,9 @@
 package ayonel_32_LongestValidParentheses;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-12 19:09
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution2 {
     public int longestValidParentheses(String s) {

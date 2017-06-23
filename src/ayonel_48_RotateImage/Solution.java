@@ -3,9 +3,9 @@ package ayonel_48_RotateImage;
 import java.util.Arrays;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-23 21:48
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  *
  * 解题思路，一圈一圈旋转
  **/

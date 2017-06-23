@@ -3,9 +3,9 @@ package ayonel_99_RecoverBinarySearchTree;
 import ayonel_2_AddTwoNumbers.TreeNode;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-23 10:07
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：中序遍历
  * https://leetcode.com/problems/recover-binary-search-tree/#/solutions
  **/

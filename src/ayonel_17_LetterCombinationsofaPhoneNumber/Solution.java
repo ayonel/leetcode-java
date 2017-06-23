@@ -5,9 +5,9 @@ import java.util.*;
 /**
  * Letter Combinations of a Phone Number
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-08 14:40
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：遍历输入字符串，保存遍历到当前位置时的结果，再对每个结果后面一个当前位置对应的char  效率有些低
  *
  * 可以用LinkedList 模拟队列，FIFO，这样就不用额外的空间开销，见2

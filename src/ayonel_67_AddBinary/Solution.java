@@ -3,9 +3,9 @@ package ayonel_67_AddBinary;
 /**
  * 67. Add Binary
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-15 16:01
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public String addBinary(String a, String b) {

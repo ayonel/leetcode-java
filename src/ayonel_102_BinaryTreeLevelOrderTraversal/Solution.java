@@ -13,9 +13,9 @@ import java.util.*;
  [9,20],
  [15,7]
  ]
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-23 13:41
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：层次遍历, 利用双向队列
  * 用深搜也可以
  **/

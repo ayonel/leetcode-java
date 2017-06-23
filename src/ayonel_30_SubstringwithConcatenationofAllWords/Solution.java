@@ -5,9 +5,9 @@ import java.util.*;
 /**
  * 30. Substring with Concatenation of All Words
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-12 11:06
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  *
  * 解题思路：广搜,又tm超时,并且words中允许重复单词，所以我的方法中List.remove的时候会一次删除多个单词，有错误,
  * 其实没有必要用广搜，这种情况下广搜与遍历一遍是相等的，广搜还需要递归，更费时间，，，，

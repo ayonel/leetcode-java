@@ -12,9 +12,9 @@ package ayonel_97_InterleavingString;
  When s3 = "aadbbbaccc", return false.
 
 
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-22 22:22
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public boolean isInterleave(String s1, String s2, String s3) {

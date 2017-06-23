@@ -6,9 +6,9 @@ import java.util.List;
 /**
  * Minimum Path Sum
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-25 09:39
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  *
  * 解题思路：记录了所有的可能的总和(有可能超时，果然超时了)，优化算法是开一个int[][] matrix, 只记录到当前位置的最小值
  **/

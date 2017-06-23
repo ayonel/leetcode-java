@@ -5,9 +5,9 @@ import ayonel_2_AddTwoNumbers.ListNode;
 /**
  * Rotate List
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-15 15:02
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：找到倒数第k个节点，然后断成两部分，把第二部分接到第一部分头上,需要注意k有可能大于链表长度，需要求模
  * 还要考虑k正好等于链表长度，以及链表为空的特殊情况
  *

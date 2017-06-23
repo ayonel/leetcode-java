@@ -3,9 +3,9 @@ package ayonel_27_RemoveElement;
 /**
  * Remove Element
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-15 22:17
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public  int removeElement(int[] nums, int val) {

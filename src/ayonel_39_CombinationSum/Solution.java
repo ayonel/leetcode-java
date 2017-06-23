@@ -5,9 +5,9 @@ import java.util.*;
 /**
  * Combination Sum
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-21 22:36
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  *
  * 解题思路：深度优先搜索
  **/

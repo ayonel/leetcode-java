@@ -6,9 +6,9 @@ import java.util.List;
 /**
  * Spiral Matrix
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-24 12:57
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {

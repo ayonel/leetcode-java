@@ -3,14 +3,14 @@ package ayonel_74_Searcha2DMatrix;
 /**
  * Search a 2D Matrix
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-25 21:14
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-24 13:58
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
 Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:
 
 Integers in each row are sorted from left to right.

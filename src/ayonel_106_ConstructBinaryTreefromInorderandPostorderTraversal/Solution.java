@@ -5,9 +5,9 @@ import ayonel_2_AddTwoNumbers.TreeNode;
 /**
  * Given inorder and postorder traversal of a tree, construct the binary tree.
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-23 16:54
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：我tm的太强了
  **/
 public class Solution {

@@ -3,9 +3,9 @@ package ayonel_42_TrappingRainWater;
 /**
  * Trapping Rain Water
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-22 22:39
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
 

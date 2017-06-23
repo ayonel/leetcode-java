@@ -3,9 +3,9 @@ package ayonel_31_NextPermutation;
 /**
  * Next Permutation
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-05-21 17:35
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：i=最后，i--一直往前找，如果一直是升序，则不断i--;一旦找到了一个i，nums[i-1]<nums[i]了，也就是打破了升序，则
  * 把i~end之间的数组反转，然后在从这个升序的子数组中找到第一个大于nums[i-1]的值，把它与i的位置交换，返回
  * 如果能执行到出循环，说明该数组是一个天然的降序数组，则反转整个数组

@@ -6,9 +6,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-23 15:45
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 递归，牛逼，我太牛逼了
  **/
 public class Solution {

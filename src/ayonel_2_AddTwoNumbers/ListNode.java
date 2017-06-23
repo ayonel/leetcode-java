@@ -1,7 +1,7 @@
 package ayonel_2_AddTwoNumbers;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @created_at 16/9/10
  */
 

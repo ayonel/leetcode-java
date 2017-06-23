@@ -3,9 +3,9 @@ package ayonel_9_PalindromeNumber;
 /**
  * 9. Palindrome Number
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-07 16:42
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路: 有个不太科学的特殊考虑：如果是负数，直接返回false
  * 分别计算出倒数第index个数与第index个数，分别比较
  *

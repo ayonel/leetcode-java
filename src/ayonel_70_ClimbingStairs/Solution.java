@@ -1,9 +1,9 @@
 package ayonel_70_ClimbingStairs;
 
 /**
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-04 23:15
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public int climbStairs(int n) {

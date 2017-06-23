@@ -3,9 +3,9 @@ package ayonel_38_countAndSay;
 /**
  * countAndSay
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-12 20:54
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  **/
 public class Solution {
     public String countAndSay(int n) {

@@ -8,9 +8,9 @@ import java.util.Set;
 /**
  * 52. N-Queens II
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-13 22:04
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：叼，https://leetcode.com/problems/n-queens-ii/#/solutions
  **/
 public class Solution {

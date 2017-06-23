@@ -3,9 +3,9 @@ package ayonel_60_PermutationSequence;
 /**
  * 60. Permutation Sequence
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-15 14:05
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：二找，一换，一翻转，但是效率有些慢
  * 没有必要求出所有的
  *

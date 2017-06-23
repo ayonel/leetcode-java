@@ -3,9 +3,9 @@ package ayonel_37_SudokuSolver;
 /**
  * 37. Sudoku Solver
  *
- * @author ayonel
+ * @author ayonel_113_PathSumII
  * @create 2017-06-12 19:51
- * @blog https://ayonel.me
+ * @blog https://ayonel_113_PathSumII.me
  * 解题思路：回溯
  **/
 public class Solution {
