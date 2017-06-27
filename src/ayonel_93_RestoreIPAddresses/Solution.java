@@ -48,7 +48,6 @@ public class Solution {
             for(int i = index; i < s.length() && i <= index + 2; i++) {
                 List<Integer> tmpPath = new ArrayList<>();
                 tmpPath.addAll(path);
-
                 int tmp = Integer.parseInt(s.substring(index, i+1));
                 if (tmp <= 255) {
                     tmpPath.add(tmp);

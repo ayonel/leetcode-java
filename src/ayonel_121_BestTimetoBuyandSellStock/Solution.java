@@ -10,10 +10,11 @@ import java.util.HashMap;
  * @blog https://ayonel.me
  * 空间复杂度O(N)
  * 时间复杂度O(N)，保存一个max数组，存的是对应位之后的最大值
- * 草本来就是线性的问题，我想这么复杂干嘛，一直判断是否增，如果增直接将当前max增，直到减，则开始重新计数。
+ * 正向推的话，根本不用维护数组，复杂度O(1)，草，脑子瓦塔拉
+ *
  **/
 public class Solution {
-    public int maxProfit(int[] prices) {
+    public int maxProfitMine(int[] prices) {
         int length = prices.length;
         if (length <= 1)
             return 0;
@@ -29,9 +30,19 @@ public class Solution {
             max = Math.max(max, maxArray[i] - prices[i]);
        return max;
     }
+    public int maxProfit(int[] prices) {
+        int maxCur = 0, maxSoFar = 0;
+        for(int i = 1; i < prices.length; i++) {
+            maxCur += prices[i] - prices[i-1];
+            maxCur = Math.max(0, maxCur);
+            maxSoFar = Math.max(maxCur, maxSoFar);
+        }
+        System.out.println(maxSoFar);
+        return maxSoFar;
+    }
 
     public static void main(String[] args) {
-        int[] a = {5,5,4,9,3,8,5,5,1,6,8,3,4};
+        int[] a = {4,5,7,5,9};
        new Solution().maxProfit(a);
     }
 }
