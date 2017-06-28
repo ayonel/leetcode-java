@@ -93,7 +93,35 @@ public class Solution {
         node3.left = node6;
         node3.right = node7;
 
-        System.out.println(new Solution().maxPathSum(node1));
+        System.out.println(new Solution().isPalindrome("0p"));
+    }
+    public boolean isPalindrome(String s) {
+        String lowerString = s.toLowerCase().trim();
+        int i = 0;
+        int j = lowerString.length() - 1;
+        System.out.println(lowerString);
+        while(i < lowerString.length() && j >= 0) {
+            while(i < lowerString.length() && !isAlphaDig(lowerString.charAt(i))){
+                i++;
+            }
+            while(j >= 0 && !isAlphaDig(lowerString.charAt(j))){
+                j--;
+            }
+
+
+            if (j >= 0 && i < lowerString.length() && lowerString.charAt(j) != lowerString.charAt(i))
+                return false;
+            i++;
+            j--;
+        }
+
+        return true;
+
+    }
+
+
+    public boolean isAlphaDig(char c) {
+        return Character.isAlphabetic(c) || Character.isDigit(c);
     }
 
 
