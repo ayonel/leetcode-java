@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @create 2017-06-28 17:02
  * @blog https://ayonel.me
  * 解题思路：超时，草，MMP
- * 左右扫一遍，我勒个日
+ * 左右扫一遍，我勒个日,第一遍往右扫，形成了山的左侧，第二遍往左扫，补上了山的右侧，我日
  **/
 public class Solution {
     public int candyMine(int[] ratings) {
@@ -63,8 +63,8 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        int[] ratings = {13,2,1};
+        int[] ratings = {1,3,3,3,2};
 //        int[] ratings = {4,3,2,1};
-//        System.out.println(new Solution().candy(ratings));
+        System.out.println(new Solution().candy(ratings));
     }
 }
