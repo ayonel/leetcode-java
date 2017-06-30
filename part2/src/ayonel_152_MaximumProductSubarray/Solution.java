@@ -10,6 +10,7 @@ package ayonel_152_MaximumProductSubarray;
  * 如果该点是0，则positive[i]=negative[i] = 0
  * 需要注意，如果之前的一点，positive[i-1]<= 0 或者 negative[i-1]>=0， 则该店的negative[i]=positive[i] = nums[i]
  * 吊吊吊
+ * 空间复杂度可以降为O(1)
  **/
 public class Solution {
     public int maxProduct(int[] nums) {
