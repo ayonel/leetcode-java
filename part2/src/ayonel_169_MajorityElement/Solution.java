@@ -18,6 +18,18 @@ public class Solution {
             }  else
                 count--;
         }
-        return major;
+        int c = 0;
+        for(int i : nums) {
+            if (i == major)
+                c++;
+        }
+        if (c > nums.length/2)
+            return major;
+        else return -1;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {1,2,3,4,5};
+        System.out.println(new Solution().majorityElement(nums));
     }
 }
