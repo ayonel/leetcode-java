@@ -47,7 +47,7 @@ public class Solution {
         Predicate<Integer> s = (p) -> p>10;
         int[] nums = {12,121};
 //        int[] nums = {2323232,231};
-//        System.out.println(new Solution().compare(9, 8));
+//        System.out.println(new PeekingIterator().compare(9, 8));
         new Solution().largestNumber(nums);
     }
 }
