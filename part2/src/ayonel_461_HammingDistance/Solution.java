@@ -47,7 +47,22 @@ public class Solution {
         return hamming;
 
     }
+    public int[] constructRectangle(int area) {
+        int sqrt = (int)Math.ceil(Math.sqrt(area));
+        int[] res = new int[2];
+        for(int i = sqrt; i <= area; i++) {
+            if (area % i == 0){
+                res[0] = i;
+                res[1] = area/i;
+                return res;
+            }
+
+        }
+        return res;
+
+    }
 
     public static void main(String[] args) {
+        new Solution().constructRectangle(10);
     }
 }
