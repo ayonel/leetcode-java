@@ -35,8 +35,9 @@ public class Solution {
         node2.left = node4;
         node3.left = node5;
         new Solution().findTilt(node1);
-        System.out.println(new Solution().sumOfTree(node1));
+
     }
+
 
 
 }
