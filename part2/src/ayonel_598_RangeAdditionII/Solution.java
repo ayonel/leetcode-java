@@ -1,5 +1,8 @@
 package ayonel_598_RangeAdditionII;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author ayonel
  * @create 2017-07-23 20:39
@@ -20,5 +23,7 @@ public class Solution {
     public static void main(String[] args) {
         int[][] ops = {{3,3},{2,2},{3,3}};
         System.out.println(new Solution().maxCount(3,3, ops));
+        List<String> list = new ArrayList<>();
+        list.toArray();
     }
 }
