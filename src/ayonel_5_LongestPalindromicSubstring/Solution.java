@@ -14,7 +14,7 @@ package ayonel_5_LongestPalindromicSubstring;
  */
 public class Solution {
     public String longestPalindrome(String s) {
-        int []a[] = new int[6][6];
+        int a[][] = new int[6][6];
 
         String longestPalindrome = "";
         int longestLength = 0;

@@ -22,18 +22,38 @@ public class Solution {
         return reverseListInt(next, node);
     }
 
+    public ListNode reverseListNorecur(ListNode head) {
+        if (head == null || head.next == null)
+            return head;
+
+        ListNode pre = null;
+        ListNode next = null;
+        while (head != null) {
+            next = head.next;
+            head.next = pre;
+            pre = head;
+            head = next;
+        }
+        return pre;
+
+    }
+
 
     public static void main(String[] args) {
         ListNode node1 = new ListNode(1);
         ListNode node2 = new ListNode(2);
-        ListNode node3 = new ListNode(3);
+//        ListNode node3 = new ListNode(3);
 //        ListNode node4 = new ListNode(4);
 
         node1.next = node2;
-        node2.next = node3;
+//        node2.next = node3;
 //        node3.next = node4;
 
-        new Solution().reverseList(node1);
+        ListNode p = new Solution().reverseListNorecur(node1);
+        while (p != null){
+            System.out.println(p.val);
+            p = p.next;
+        }
 
 
     }

@@ -8,7 +8,7 @@ import java.util.InputMismatchException;
  * @blog https://ayonel_113_PathSumII.me
  * 就是各种特殊条件，很无聊的题
  **/
-public class Solution {
+abstract public class Solution {
     public int myAtoi(String str) {
         if (str == null || str.length() == 0)
             return 0;//
@@ -36,8 +36,12 @@ public class Solution {
         return (int) sum * sign;
 
     }
+    public Solution(int s){
+
+    }
+
 
     public static void main(String[] args) {
-        System.out.println(new Solution().myAtoi("        +004500"));
+
     }
 }

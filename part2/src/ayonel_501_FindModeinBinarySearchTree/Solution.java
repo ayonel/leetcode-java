@@ -44,9 +44,7 @@ public class Solution {
         return res;
     }
 
-    public Solution() {
-        super();
-    }
+
 
     public void preTravel(TreeNode root, List<Integer> list) {
         if (root == null)
