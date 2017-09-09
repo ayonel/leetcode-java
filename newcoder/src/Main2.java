@@ -1,0 +1,63 @@
+
+import java.util.*;
+
+
+public class Main2 {
+    /* Returns true if y is a power of x */
+    public static boolean isPower (int x, int y)
+    {
+        // The only power of 1 is 1 itself
+        if (x == 1)
+            return (y == 1);
+
+        // Repeatedly compute power of x
+        int pow = 1;
+        while(pow < y)
+            pow = pow * x;
+
+        // Check if power of x becomes y
+        return (pow == y);
+    }
+    public static void main(String[] args) {
+
+        int sumRes = 0;
+        Scanner scanner = new Scanner(System.in);
+        int inNum = scanner.nextInt();
+        Set<Integer> set = new HashSet<>();
+        Map<Integer, Integer> map = new HashMap<>();
+        int sumAB[][] = new int[inNum + 1][inNum + 1];
+        for (int i=1;i<=inNum;i++) {
+            for(int j=1;j<=inNum;j++) {
+                sumAB[i][j] = (int) Math.pow(i,j);
+                if (!map.containsKey(sumAB[i][j])) {
+                    map.put(sumAB[i][j], 1);
+                } else {
+                    map.put(sumAB[i][j], map.getOrDefault(sumAB[i][j] ,1)+1);
+                }
+//                for(int k=1;k<=inNum;k++) {
+//                    if (isPower(k, sumAB[i][j])) {
+//                        sumRes++;
+//                        sumRes=sumRes%1000000007;
+//                    }
+//                }
+
+
+            }
+        }
+
+        Set<Integer> set1 = map.keySet();
+        for (Integer s:set1) {
+            if (map.get(s) == 1) {
+                sumRes++;
+                sumRes=sumRes%1000000007;
+            }else {
+                sumRes += map.get(s) * map.get(s);
+                sumRes=sumRes%1000000007;
+            }
+        }
+        System.out.println(sumRes);
+
+    }
+
+
+}

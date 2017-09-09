@@ -47,7 +47,6 @@ public class Main {
         int[][] dp = new int[n][n];
         dp[0][0] = (peoples.get(0).get(2).equals(copy.get(0).get(2)))? 1:0;
 
-
         for (int i = 1; i < n; i++) {
             if (copy.get(i).get(2).equals(peoples.get(0).get(2))){
                 dp[0][i] = 1;

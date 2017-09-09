@@ -1,9 +1,9 @@
 package ayonel_117_PopulatingNextRightPointersinEachNodeII;
 
 import ayonel_2_AddTwoNumbers.TreeLinkNode;
+import ayonel_2_AddTwoNumbers.TreeNode;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
+import java.util.*;
 
 /**
  * @author ayonel
@@ -36,20 +36,9 @@ public class Solution {
         }
     }
 
-    public void connectStandard(TreeLinkNode root) {
 
-        while(root != null){
-            TreeLinkNode tempChild = new TreeLinkNode(0);
-            TreeLinkNode currentChild = tempChild;
-            while(root!=null){
-                if(root.left != null) { currentChild.next = root.left; currentChild = currentChild.next;}
-                if(root.right != null) { currentChild.next = root.right; currentChild = currentChild.next;}
-                root = root.next;
-            }
-            root = tempChild.next;
-        }
-    }
-    public static void main(String[] args) {
+
+        public static void main(String[] args) {
         TreeLinkNode node1 = new TreeLinkNode(1);
         TreeLinkNode node2 = new TreeLinkNode(2);
         TreeLinkNode node3 = new TreeLinkNode(3);
@@ -68,3 +57,8 @@ public class Solution {
         System.out.println();
     }
 }
+
+
+
+
+
